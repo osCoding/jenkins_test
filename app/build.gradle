@@ -17,6 +17,8 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    print("===========================开始打包========================================")
+
     buildTypes {
         release {
             minifyEnabled false
