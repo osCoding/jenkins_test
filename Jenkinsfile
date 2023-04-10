@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'jenkinsagent-154'
+        label 'main'
       }
       stages {
           stage('检测环境') {
