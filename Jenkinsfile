@@ -18,7 +18,7 @@ pipeline {
           stage('编译构建') {
               steps {
                   echo '编译构建'
-                  sh 'excute.sh'
+                  sh ' sh excute.sh'
               }
           }
           stage('项目部署') {
