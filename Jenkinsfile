@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-        label 'main'
-      }
+    agent any
       stages {
           stage('检测环境') {
               steps {
